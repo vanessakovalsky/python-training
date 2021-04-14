@@ -1,4 +1,4 @@
-# Exercice 3 - manipulation de fichier
+# Exercice 4 - manipulation de fichier
 
 ## Objectifs 
 * Savoir ouvrir et lire des donnnées dans un fichier

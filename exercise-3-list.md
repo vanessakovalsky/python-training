@@ -1,4 +1,4 @@
-# Exercice 2 - Liste
+# Exercice 3 - Liste
 
 ## Objectifs : 
 * Créer des listes et récupérer les données de celle-ci
