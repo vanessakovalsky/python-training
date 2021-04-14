@@ -27,3 +27,15 @@ week-end d’autre part ? Utilisez pour cela l’indiçage.
 
 ## Nombres pairs
 * Répondez à la question suivante en une seule commande. Combien y a-t-il de nombres pairs dans l’intervalle [2, 10000] inclus ?
+
+## Pour aller plus loin
+
+* On va créer un jeu de carte
+    * Créer un programme jeu_de_cartes.py, qui crée une liste avec l’ensemble des cartes soit :1,2,...10,V,D,R sans spécifier la couleur. On se permettra une saisie manuelle des valeurs descartes.
+    * Contrôler le contenu de votre liste en l’affichant
+    * Créer une deuxième liste de couleur
+    * Afficher l'ensemble du jeu de carte (une valeur de chaque couleur)
+* Copier le script jeu_de_cartes.py et renommer la copie en jeu_de_cartes2.py avec deux jeux de 52 cartes 
+    * Afficher le contenu de vos deux listes en les affichang
+    * On tire 10 cartes au hasard dans chaque jeu. Faire afficher les 10 cartes tirées pour chacun des 2 jeux.
+    * Trouver les cartes identiques dans les 2 tirages.

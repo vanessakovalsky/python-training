@@ -22,3 +22,10 @@ inférieure à 10 et « admis » si la note est supérieure ou égale à 10. Tou
     * 13.5 admis
     * 17.0 admis
     * 9.5 recalé
+
+## Pour aller plus loin 
+
+* Rechercher des palindromes dans un dictionnaire
+    * Créer un fichier dico.py
+    * Ce programme extrait les mots depuis un fichier dico.txt (à créer)
+    * Il recherche et affiche les palindromes (les mots qui se lise dans les deux sens)
