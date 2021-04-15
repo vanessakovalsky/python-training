@@ -4,7 +4,6 @@
 * Créer des listes et récupérer les données de celle-ci
 * Manipuler les fonctions range et list
 
-
 ## Jours de la semaine
 * Constituez une liste semaine contenant les 7 jours de la semaine.
 1. À partir de cette liste, comment récupérez-vous seulement les 5 premiers jours de la semaine d’une part, et ceux du
