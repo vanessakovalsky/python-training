@@ -4,6 +4,12 @@
 * Savoir ouvrir et lire des donnnées dans un fichier
 * Etre capable d'écrire dans un fichier
 
+## Lire et écrire dans un fichier
+
+* Créer un script qui lit le fichier loremipsum.txt (se trouvant dans le dossier resources)
+* Afficher le contenu du fichier depuis le script
+* Ajouter a la ligne 5 la chaine suivante (sur une nouvelle ligne) "Ma nouvelle chaine insérée dans mon fichier texte au milieu du lorem ipsum"
+
 ## Moyenne des notes
 
 * Le fichier notes.txt (dans le dossier resources) contient les notes obtenues par des étudiants pour le cours de Python. Chaque ligne du fichier ne
