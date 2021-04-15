@@ -18,7 +18,8 @@ contient qu’une note.
 * Créez un script Python qui lit chaque ligne de ce fichier, extrait les notes sous forme de float et les stocke dans une liste.
 * Terminez le script en calculant et affichant la moyenne des notes avec deux décimales.
 
-## Admis ou recalé
+
+## Admis ou recalé
 
 * Utiliser le même fichier notes.txt que pour l'exercice précédent
 * Reprendre également le script écrit à l'exercice précédent nous allons le compléter
