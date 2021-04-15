@@ -11,6 +11,7 @@ fichier.seek(0) # On remet le pointeur au début du fichier
 lines = fichier.readlines()
 
 lines[4] = lines[4] + "\nMa nouvelle chaine insérée dans mon fichier texte au milieu du lorem ipsum\n"
+# Ou bien : lines.insert(4, "\nMa nouvelle chaine insérée dans mon fichier texte au milieu du lorem ipsum\n")
 
 fichier.seek(0) # On remet le pointeur au début du fichier
 fichier.writelines(lines)
