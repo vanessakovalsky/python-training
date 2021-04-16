@@ -8,6 +8,7 @@
 * Reprendre les deux scripts de l'exercice précédents : pair_impair.py et mini_maxi.py
 * Créer un script main.py 
 * Importer nos deux scripts (`import pair_impair` et `import mini_maxi`) dans le fichier créé
+* Modifier mini_maxi pour prendre en compte la longueur de la chaine de caractere et non plus des valeurs numériques
 * Demander à l'utilisateur si sa valeur va être numérique ou une chaine de caractère
 * En fonction du choix de l'utilisateur, lui faire saisir une valeur et appeler la fonction correspondante depuis l'un de nos deux modules
 
