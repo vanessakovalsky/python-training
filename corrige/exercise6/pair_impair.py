@@ -2,15 +2,16 @@
 
 def pair(valeur):
     if valeur % 2 == 0 :
-        print("La fonction Pair retourne True pour la valeur {0}". format(valeur))
+        return "La fonction Pair retourne True pour la valeur " + valeur
 
 def impair(valeur):
     if valeur % 2 != 0 :
-        print("La fonction Impair retourne True pour la valeur {0}". format(valeur))
+        return "La fonction Impair retourne True pour la valeur " + valeur
 
 # On demande la valeur
 valeur = int(input('Entrer un nombre : '))
 
 # On appelle les deux fonctions
-pair(valeur)
-impair(valeur)
+result = pair(valeur) if pair(valeur) else impair(valeur)
+print(result)
+
