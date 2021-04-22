@@ -1,0 +1,2 @@
+12,dupont,jean,membre,moi moi moi,jean@moi.com,password
+42,dupont,jean,membre,moi moi moi,jean@moi.com,password
