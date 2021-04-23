@@ -7,8 +7,13 @@ class Jeu:
     categorie  = 'Familiale'
     duree = ''
     nombre_de_joueurs = ''
+    toto = ''
 
-    
+    def __init__(self, liste_parametre):
+        self.nom_du_jeu = liste_parametre['nom_du_jeu'] 
+        self.editeur = liste_parametre['editeur']
+        return 'ok l\'objet est créé'
+
     def listeJeu(self):
         pass
 

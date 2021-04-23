@@ -1,8 +1,21 @@
-# Exercice 10 - Héritage
+# Exercice 10 - Constructeur, encapsulation et Héritage
 
 ## Objectifs : 
+* Définir un constructeur pour créer des objets avec des données 
+* Encapsuler ces données
 * Savoir définir une classe enfant 
-* Définir une classe commune pour éviter la répétition de code
+
+## Ajouter un constructeur a notre classe utilisateur
+
+* Sur la classe Utilisateur, ajouter un constructeur (méthode __init__ ) qui prend en paramètre un dictionnaire
+* Pour chaque clé du dictionnaire affecter la valeur à l'attribut correspondant
+
+## Encapsuler les données
+
+* Pour l'attribut mot de passe : 
+    * définir une fonction getMotDepasse qui affiche des étoiles à la places des caractères pour ne pas afficher le mot de passe en clair
+    * définir une fonction setMotDePasse qui vérifie que le mot de passe contient au moins 8 caractères et un chiffre et une lettre
+    * utiliser ses deux fonctions sur l'attribut mot de passe avec la méthode property
 
 ## Spécialiser les classes utilisateurs
 * Créer deux classe Membre et Admin qui hérite toute les deux de la classe utilisateur
