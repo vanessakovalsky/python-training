@@ -9,7 +9,7 @@
 * Si ce n'est pas le bon type récupérer l'exception et afficher un message à l'utilisateur en l'invitant à ressaisir la donnée
 
 ## Déclencher une exception
-* Lors de l'ajout d'un jeu dans le fichier, déclencher une exception de type ValueError si le jeu exsite déjà dans la liste
+* Lors de l'ajout d'un jeu dans le fichier, déclencher une exception de type ValueError si le jeu existe déjà dans la liste
 * Puis afficher un message à l'utilisateur
 
 
