@@ -1,2 +1,4 @@
 resources/.vagrant
 resources/vagrant
+*/*/__pycache__/
+*/*.log
