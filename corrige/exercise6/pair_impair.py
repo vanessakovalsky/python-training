@@ -9,7 +9,7 @@ def impair(valeur):
         return "La fonction Impair retourne True pour la valeur " + valeur
 
 # On demande la valeur
-valeur = int(input('Entrer un nombre : '))
+valeur = str(input('Entrer un nombre : '))
 
 # On appelle les deux fonctions
 result = pair(valeur) if pair(valeur) else impair(valeur)
