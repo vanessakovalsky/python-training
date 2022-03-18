@@ -2,14 +2,14 @@
 
 def pair(valeur):
     if valeur % 2 == 0 :
-        return "La fonction Pair retourne True pour la valeur " + valeur
+        return "La fonction Pair retourne True pour la valeur " + str(valeur)
 
 def impair(valeur):
     if valeur % 2 != 0 :
-        return "La fonction Impair retourne True pour la valeur " + valeur
+        return "La fonction Impair retourne True pour la valeur " + str(valeur)
 
 # On demande la valeur
-valeur = str(input('Entrer un nombre : '))
+valeur = int(input('Entrer un nombre : '))
 
 # On appelle les deux fonctions
 result = pair(valeur) if pair(valeur) else impair(valeur)
