@@ -1,0 +1,29 @@
+Mood du matin : 
+
+Quel est votre humeur du matin ? (réponse via un smiley)
+:grinning: prêt et en forme
+:upside_down: Envie mais pas encore reveillé
+:bed: j'aurais préféré rester dans mon lit ce matin
+
+
+
+ROTI du soir
+Avez vous trouvez la journée utile ?
+:one: inutile : j’ai perdu mon temps en venant
+:two: utile : la rencontre était utile mais j’ai quand même perdu un peu de temps en étant présent.
+:three: Juste moyenne : je n’ai pas perdu mon temps mais je n’ai pas trouvé un véritable intérêt à venir.
+:four: Bonne : c’était plutôt pas mal, je ne suis pas venu perdre mon temps en venant bien au contraire
+:five: Excellent ; c’était un grand moment et j’aurais clairement regretté de ne pas avoir participé.
+
+Résumé du soir : 
+
+laisser le groupe en autonomie vers 17h10/17h15 et leur demander de préparer un récapitulatif de la journée que l'un 
+d'entre eux doit présenter le lendemain matin (permet de vérifier ce qu'ils ont compris / retenu et de soulever des questions) 
+
+Résumé hebdomadaire : 
+Vendredi vers 16h15 : groupe complet en autonomie, compléter la mindmap avec tout ce qui a été vu cette semaine, et ajouter 
+les liens vers les ressources utiles supplémentaires qu'ils ont trouvés (permet de partager et qu'ils gardent des traces communes)
+Une d�mo de modification du fichier 
+Une autre ligne 
+Une d�mo de modification du fichier 
+Une autre ligne 
