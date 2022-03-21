@@ -1,5 +1,5 @@
-import mini_maxi
-import pair_impair
+from modules.pair_impair import pair, impair
+import modules.mini_maxi
 
 type_donne = input('Pour entrer un texte taper 0, pour entrer un nombre taper 1')
 
