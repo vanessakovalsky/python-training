@@ -11,8 +11,12 @@ class Utilisateur:
 
     # Méthode 1 avec une boucle simple
     def __init__(self, dictionnaire) :
+        # self._nom = dictionnaire['nom']
+        # self._prenom = dictionnaire['prenom']
+        # self.role = dictionnaire['role']
         for cle, valeur in dictionnaire.items():
-            self.cle = valeur
+            setattr(self, cle, valeur)
+
 
     # Méthode 2 avec une liste de valeur modifiables et des tests
     # def __init__(self, liste):

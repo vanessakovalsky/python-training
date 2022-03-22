@@ -4,12 +4,10 @@ import utilisateur
 user_or_jeu = input('1 - User, 2 - Jeu')
 
 if user_or_jeu == "1":
-    liste = {'_nom':'david','_prenom':'vanessa'}
+    liste = {'_nom':'david','_prenom':'vanessa','role':'membre'}
     user = utilisateur.Utilisateur(liste)
-    print(user.mot_de_passe)
-    print(user._nom)
 elif user_or_jeu == "2":
-    jeu = Jeu()
+    jeu = jeu.Jeu()
     choix = input('Choisir 1 - Liste, 2 - Ajout, 3 - Voir un jeu, 4 - Supprimer')
     if choix == "1":
         jeu.listeJeu()
