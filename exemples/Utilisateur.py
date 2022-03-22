@@ -21,3 +21,6 @@ class Utilisateur:
     # Destructeur appelé à la suppression de l'objet 
     def __del__(self):
         return 'L objet a bien été supprimé'
+
+class Admin(Utilisateur):
+    is_admin = True

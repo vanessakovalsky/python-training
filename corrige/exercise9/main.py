@@ -1,6 +1,5 @@
 from jeu import Jeu
 
-
 jeu = Jeu()
 
 choix = input('Choisir 1 - Liste, 2 - Ajout, 3 - Voir un jeu, 4 - Supprimer')
@@ -18,6 +17,6 @@ elif choix == "3":
     print(jeu.voirJeu(identifiant))
 elif choix == "4":
     identifiant = input('Nom du jeu')
-    jeu.supprimerJeu(identifiant)
+    print(jeu.supprimerJeu(identifiant))
 else :
     print("Merci de saisir  un choix valide")
