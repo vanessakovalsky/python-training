@@ -9,7 +9,7 @@
 # calculatrice2.montant_depart = 78542
 # print(calculatrice2.montant_depart)
 
-from Utilisateur import Utilisateur, Admin
+from Utilisateur import *
 
 vanessa = Utilisateur("David",'Vanessa')
 print(vanessa.jeMappelle())
@@ -21,5 +21,11 @@ pauline = Admin('Nom','Pauline')
 print(pauline.jeMappelle())
 print(Admin.is_admin)
 
-if pauline.is_admin:
-    print('Pauline peux créer un jeu')
+print(pauline.nom)
+print(pauline.is_membre)
+
+
+visiteur1 = Visiteur()
+print(visiteur1.adresse)
+
+print(pauline.adresse)
