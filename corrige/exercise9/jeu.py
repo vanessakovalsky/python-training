@@ -64,5 +64,5 @@ class Jeu():
         for jeu in liste_jeux:
             jeu_split = jeu.split(',')
             if jeu_split[0] == id:
-                jeu_a_afficher = jeu_split
+                jeu_a_afficher = ','.join(jeu_split)
         return jeu_a_afficher

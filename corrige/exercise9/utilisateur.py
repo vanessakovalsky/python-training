@@ -59,5 +59,5 @@ class Utilisateur:
         for user in liste_user:
             user_split = user.split(',')
             if user_split[0] == id:
-                user_a_afficher = user_split
+                user_a_afficher = ','.join(user_split)
         return user_a_afficher
