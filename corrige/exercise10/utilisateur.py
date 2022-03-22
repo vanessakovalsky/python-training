@@ -9,13 +9,19 @@ class Utilisateur:
     connecte = False
     _keys = ['_nom', '_prenom' ]
 
-    def __init__(self, liste):
-        for cle, valeur in liste.items():
-            if cle in self._keys:
-                setattr(self, cle, valeur)
-            else:
-                setattr(self, cle, None)
-        self.__mot_de_passe = 'password'
+    # Méthode 1 avec une boucle simple
+    def __init__(self, dictionnaire) :
+        for cle, valeur in dictionnaire.items():
+            self.cle = valeur
+
+    # Méthode 2 avec une liste de valeur modifiables et des tests
+    # def __init__(self, liste):
+    #     for cle, valeur in liste.items():
+    #         if cle in self._keys:
+    #             setattr(self, cle, valeur)
+    #         else:
+    #             setattr(self, cle, None)
+    #     self.__mot_de_passe = 'password'
         
     def get_nom(self):
         return self._nom.upper()
