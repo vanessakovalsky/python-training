@@ -65,9 +65,8 @@ class Utilisateur:
 
     def VoirUtilisateur(self, idutilisateur) :
         # permet d'afficher les informations d'un utilisateur précis en fonction de son identifiant (paramètre à demander à l'utilisateur)
-         if type(idutilisateur) == 'str':
-            user_a_afficher = self.__trouverunuser(idutilisateur)
-            return user_a_afficher
+        user_a_afficher = self.__trouverunuser(idutilisateur)
+        return user_a_afficher
 
     def SupprimeUtilisateur(self, idutilisateur) :
         # supprime un jeu du fichier utilisateurs.txt à partir de son identifiant

@@ -43,9 +43,8 @@ class Jeu():
         return jeu + 'Le jeu a bien été ajouté'
 
     def voirJeu(self, identifiant_du_jeu):
-        if type(identifiant_du_jeu) == 'str':
-            jeu_a_afficher = self.__trouverunjeu(identifiant_du_jeu)
-            return jeu_a_afficher
+        jeu_a_afficher = self.__trouverunjeu(identifiant_du_jeu)
+        return jeu_a_afficher
 
     def supprimerJeu(self, identifiant_du_jeu):
         jeu_a_supprimer = self.__trouverunjeu(identifiant_du_jeu)

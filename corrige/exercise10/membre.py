@@ -14,10 +14,11 @@ class Membre(Utilisateur):
                 print('pseudo ok')
                 dictionnaire_donnes['_nom'] = input('Nom')
                 dictionnaire_donnes['_prenom'] = input('prenom')
+                dictionnaire_donnes['email'] = input('email')
                 nouvelle_donnees = ','.join(dictionnaire_donnes.values())
                 self.SupprimeUtilisateur(self._pseudo)
                 self.AjoutUtilisateur(nouvelle_donnees)
-                #return mes_donnees 
+                return self.VoirUtilisateur(self._pseudo) 
             else :
                 return 'Vous ne pouvez modifier que vos propres données'
         else:
